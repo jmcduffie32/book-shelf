@@ -1,12 +1,10 @@
 import './App.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
-  const userId = 'jmcduffie';
-  const apiKey = '1727196843';
   // This originally called the libraryThing api, but they'ce since
   // shut it down; Just using static data now
-  const [books, setBooks] = useState([
+  const [books] = useState([
     { title: 'Hyperion', author: 'Dan Simmons', cover: 'https://openlibrary.org/works/OL1963268W?edition=key%3A/books/OL24961127M' },
     { title: 'The Graveyard Book', author: 'Neil Gaiman', cover: 'https://openlibrary.org/works/OL679348W?edition=key%3A/books/OL19429647M' },
     { title: 'Shards of Earth', author: 'Adrian Tchaikovsky', cover: 'https://openlibrary.org/works/OL24481122W?edition=key%3A/books/OL37485654M' },
