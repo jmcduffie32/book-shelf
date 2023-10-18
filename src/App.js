@@ -5,14 +5,14 @@ function App() {
   // This originally called the libraryThing api, but they'ce since
   // shut it down; Just using static data now
   const [books] = useState([
-    { title: 'Hyperion', author: 'Dan Simmons', cover: 'https://openlibrary.org/works/OL1963268W?edition=key%3A/books/OL24961127M' },
-    { title: 'The Graveyard Book', author: 'Neil Gaiman', cover: 'https://openlibrary.org/works/OL679348W?edition=key%3A/books/OL19429647M' },
-    { title: 'Shards of Earth', author: 'Adrian Tchaikovsky', cover: 'https://openlibrary.org/works/OL24481122W?edition=key%3A/books/OL37485654M' },
-    { title: 'The Color of Magic', author: 'Terry Pratchett', cover: 'https://books.google.com/books?id=7YBX8sWHq4sC&dq=The+color+of+magic&hl=en&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwj8rJjQsP6BAxVHmIkEHRubBegQ6wF6BAgGEAE'},
-    { title: 'The Stone Sky', author: 'N. K. Jemison', cover: 'https://books.google.com/books?id=cmWnDQAAQBAJ&printsec=frontcover&dq=the+stone+sky&hl=en&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwjNq4nDsP6BAxU3jIkEHYGQBfYQ6wF6BAgGEAE' },
-    { title: 'Leviathan Wakes', author: 'James S.A. Corey', cover: 'https://books.google.com/books?id=yud-foXqGUEC&printsec=frontcover&dq=leviathan+wakes&hl=en&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwii0M7hsP6BAxVSkYkEHVJ-AcMQ6wF6BAgKEAE' },
-    { title: 'The Way of Kings', author: 'Brandon Sanderson', cover: 'https://books.google.com/books?id=LN_a49HEpmwC&printsec=frontcover&dq=the+way+of+kings&hl=en&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwiq0-znsP6BAxUBjokEHTAiD7oQ6wF6BAgKEAE' },
-    { title: 'The Blade Itself', author: 'Joe Abercrombie', cover: 'https://books.google.com/books?id=SlizBgAAQBAJ&printsec=frontcover&dq=the+blade+itself&hl=en&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwiX59rxsP6BAxVtnokEHZo0CkwQ6wF6BAgJEAE' },
+    { title: 'Hyperion', author: 'Dan Simmons', cover: 'cover_1.jpg' },
+    { title: 'The Graveyard Book', author: 'Neil Gaiman', cover: 'cover_2.jpg' },
+    { title: 'Shards of Earth', author: 'Adrian Tchaikovsky', cover: 'cover_3.jpg' },
+    { title: 'The Color of Magic', author: 'Terry Pratchett', cover: 'cover_4.jpg'},
+    { title: 'The Stone Sky', author: 'N. K. Jemison', cover: 'cover_5.jpg' },
+    { title: 'Leviathan Wakes', author: 'James S.A. Corey', cover: 'cover_6.jpg' },
+    { title: 'The Way of Kings', author: 'Brandon Sanderson', cover: 'cover_7.png' },
+    { title: 'The Blade Itself', author: 'Joe Abercrombie', cover: 'cover_8.jpg' },
   ]);
 
   // useEffect(() => {
